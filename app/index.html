@@ -13,8 +13,17 @@
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/desktop.css">
+        <link rel="stylesheet" href="styles/jquery.Jcrop.min.css">
+        <link rel="stylesheet" href="styles/add2home.css">
         <!-- endbuild -->
+
+        <!-- build:css app/css/tidy.css -->        
+        <!-- /build -->
+
+
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="HandheldFriendly" content="True">
@@ -54,52 +63,8 @@
         <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
 
         <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
-        
     
-
-        <!-- build:css app/css/tidy.css -->        
-        <link rel="stylesheet" type="text/css" media="screen, projection" href="styles/originals/main.css"  />         
-        <link rel="stylesheet" type="text/css" media="screen, projection" href="styles/originals/mainzen.css"  />
-        <link rel="stylesheet" type="text/css" media="screen, projection" href="styles/originals/bootstrap.css"  />
-        <link rel="stylesheet" type="text/css" media="screen, projection" href="styles/originals/bootstrap-responsive.css"  />
-        <link rel="stylesheet" type="text/css" media="screen, projection" href="styles/originals/bootstrap-override.css" />
-        <!-- /build -->
-
-
-
-
-
-
-
-
-<link href="/static/lOB1wJ2AsY6JWfZfeB1fl7aJCy0Wb8T3CcxyJVFMh0e.png" rel="shortcut icon" />
-<link href="/static/Xo700xR9wDtfi8HEyDFiQop3n1EQFUaYUa4UdcdVwhZ.ico" rel="shortcut icon" />
-<link href="/static/o2XlFmpqBIRL7uI8rkY2YnqKKa3QzSOwD3lPxCPnDOw.png" rel="shortcut icon" />
-<link href="/static/OFOaqEaKV3lNr3lHOUE0eZx7mbrnDQaJijXQuyyXZ2E.png" rel="shortcut icon" />
-<link href="/static/rjyoUHlXJYH1ear4WsRZY3g5scxqFR6qBSsjTvVQzBW.png" rel="shortcut icon" />
-<link href="/static/5r1w5DfDxv0boKXkeHBKWaD76xSKGA2bL6jziG1JzUH.jpg" rel="shortcut icon" />
-<link href="/static/iLVSlaXSkfdHI8iYyuxLqIW5h5AamlVEV0fE6TtukN0.png" rel="shortcut icon" />
-<link href="/static/tPdTAq0jAz7g37PSs6pthMXEQm29RAkeOPQNPi6FECT.jpg" rel="shortcut icon" />
-<link href="/static/CnWCagyeEk6A7lvu2LBooHsn0gJ9t5xOP1YJluGUn7W.png" rel="shortcut icon" />
-<link href="/static/7ARiB2rJgSkfi68hxnSlcG9Ot0gQ863DYxkCmSHQweE.png" rel="shortcut icon" />
-<link href="/static/14SWTr4VqVh6tnlUlgBtue6IJZ7gwE1y42RT7ya5GGW.png" rel="shortcut icon" />
-<link href="/static/BWj1is1V4JCP4uPTvdgx7wZ07r3OMgKakJV7MODRhEz.gif" rel="shortcut icon" />
-<link href="/static/fkBk1ZB22cJ0K4wK3to0jLRVNb5KDBoXQqGiEOISoH2.png" rel="shortcut icon" />
-<link href="/static/bUxe2P5bzOREz9xOXHWhgvSDKJlGdT1DoJXNEO4zuuk.png" rel="shortcut icon" />
-<link href="/static/r89X2RP2bx4TfkahhMiav0I9TapLzyBWaKYS9o70qtr.png" rel="shortcut icon" />
-<link href="/static/KFPNrJbSiQRpTBekfnGX5lEPjDLDCeoha3Bt3XLEoVf.png" rel="shortcut icon" />
-
-
-<link href="/static/wLigT9FxT5ElSVEsi9GwORbc088395vFVwy45ny7i1w.png" rel="shortcut icon" />
-<link href="/static/plyZOv6za7672gcr2QqS3vSqAvY2NZ0CLnsmTPmRV88.png" rel="shortcut icon" />
-<link href="/static/fhguhclb5QVnd6Yij1kFGNTCn6e6hnwC54dTfa7r1st.png" rel="shortcut icon" />
-<link href="/static/i5EntnG080xifgyCMn4dX6g3hqBzs9YyX9dGa6IkriV.png" rel="shortcut icon" />
-<link href="/static/BATsYQVcdHCZuTBgKIlYqNKkH3h6meBXluzUsQDVFaM.png" rel="shortcut icon" />
-<link href="/static/1dcsB4Apy1eKQ2WJyZ9nsYcoC2RF6Cqa6MTgLAcao7h.png" rel="shortcut icon" />
-<link href="/static/zHD0e0bXKjUHKEPFfvUBKCFS35NgLE8iVPGhHUVBlQk.png" rel="shortcut icon" />
-                
-        
-     
+                 
         <script type="text/javascript">
         var fb_param = {};
         fb_param.pixel_id = '6010473097304';
@@ -124,28 +89,6 @@
                 <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="bower_components/jquery/jquery.js"></script>
-        <script src="bower_components/backbone/backbone.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
-
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <script src="scripts/emote.js"></script>
-        <script src="scripts/emotezen.js"></script>
-        <script src="scripts/other.js"></script>
-        <script src="scripts/swiper.min.js"></script>
-        <script src="scripts/tags.js"></script>        
-        <script src="scripts/jquery-mobile-init.js"></script>       
-        <script src="scripts/bootstrap.js"></script>
-        <script src="scripts/helper.js"></script>
-        <!-- endbuild -->
-
-
     
         <div id="fb-root"></div>
         <div id="fb-root"></div>
@@ -1780,11 +1723,10 @@
     </div>
 </div>
                         
-                         <div id="loadingOverlay"></div>
-                 <div id="overlayMessage">&nbsp;</div>
+<!--                          <div id="loadingOverlay"></div>
+                 <div id="overlayMessage">&nbsp;</div> -->
         </div>
     
-                    <script src="/static/klyWoc4mHoziZsxrfkiBlZEh47GK020dYOmCSzocZQf.js" type="text/javascript" ></script>
 
 
 
@@ -1802,8 +1744,6 @@
 
 
 
-<script src="/static/2gDlihD65ngexefUKNZ1O75Ujp6dxAhiyvBVEOZyGbc.js" type="text/javascript" ></script>
-        
                     <fbg:resources></fbg:resources>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -1845,6 +1785,27 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();
     </script>
+
+            <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/backbone/backbone.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <script src="scripts/emote.js"></script>
+        <script src="scripts/emotezen.js"></script>
+        <script src="scripts/other.js"></script>
+        <script src="scripts/swiper.min.js"></script>
+        <script src="scripts/tags.js"></script>        
+        <script src="scripts/jquery-mobile-init.js"></script>       
+        <script src="scripts/bootstrap.js"></script>
+        <script src="scripts/helper.js"></script>
+        <script src="scripts/plugins.js"></script>
+        <!-- endbuild -->
+
     
     
     </body>
