@@ -3001,6 +3001,7 @@ padding-left: 26px;
 margin-left: 45px;
 padding-top: 27px;
 margin-bottom: 16px !important;
+line-height: 15px !important;
 }
 .post-feed-click {
 margin-bottom: 20px !important;
@@ -3008,10 +3009,10 @@ margin-bottom: 20px !important;
 .else-emote-click {
 background: url(/img/arrow-rtr-leftcurve.png) left top no-repeat;
 padding-left: 26px;
-padding-top: 40px;
+padding-top: 26px;
 margin-bottom: 20px !important;
 @media #{$media-iphone-portrait} {
-  margin-bottom: 2% !important;
+  margin-bottom: 8% !important;
 }
 }
 .click-swipe {
